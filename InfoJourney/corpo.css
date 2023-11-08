@@ -1,0 +1,39 @@
+* {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Container com o Conteudo e os Desenvolvedores*/
+.container {
+      height: 400px;
+      background-color: yellow;
+      padding-top: 20px;
+}
+
+.container h1 {
+      text-align: center;
+      padding: 20px 0px;
+}
+
+.container p {
+      padding: 0px 40px;
+      display: flex;
+      text-align: justify;
+}
+
+
+
+
+
+/*Container do Roadmap */
+
+.container-2  {
+      height: 400px;
+      background-color: white;
+}
+
+.container-2 h1  {
+      text-align: center;
+      padding: 40px 0px;
+}

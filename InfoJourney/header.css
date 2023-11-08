@@ -1,0 +1,114 @@
+html {
+      scroll-behavior: smooth;
+}
+
+:root {
+      --color-primary: #fffb00;
+}
+    
+header {
+      margin: 80px;
+}
+    
+.navbar {
+      background-color: var(--color-primary);
+      color: black;
+      position: fixed;
+      display: inline-flex;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 0;
+      align-items: center;
+      z-index: 9999;
+      transition: 1s ease-out;
+      box-shadow: 0 2px 5px #0000001a;
+      height: 80px;
+}
+  
+.navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-right: 20px;
+}
+  
+.navbar li {
+      margin: 0 10px;
+}
+  
+.navbar a {
+      color: black;
+      text-decoration: none;
+}
+
+.navbar a:hover{
+      text-decoration: none;
+      height: 2px;
+      color: lightgray;
+}
+  
+.navbar .logo {
+      font-weight: bold;
+      font-size: 18px;
+      margin-right: auto;
+      margin-left: 10px;
+}
+
+.logo img{
+      width: 60px;
+      height: auto;
+      padding: 10px;
+}
+  
+    /* Estilos para o ícone "x" */
+.navbar .menu-icon {
+      display: none;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 43px;
+      cursor: pointer;
+}
+
+                                                @media screen and (max-width: 768px) {
+      .menu {
+            text-align: center;
+      }
+
+      .navbar ul {
+            flex-direction: column;
+      }
+
+      .navbar li {
+            margin: 10px 0;
+      }
+
+      .navbar .menu-icon {
+            display: block;
+      }
+
+      .navbar .menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background-color: var(--color-primary);
+            padding: 10px;
+      }
+
+      .navbar.responsive .menu {
+            display: block;
+      }
+
+}
+
+.navbar.hidden {
+      top: -90px;
+      transition: 1s ease-out;
+}
+
