@@ -4,10 +4,15 @@
       font-family: Arial, Helvetica, sans-serif;
 }
 
-/*Container com o Conteudo e os Desenvolvedores*/
+                              /*Container com o Conteudo e os Desenvolvedores*/
+
 .container {
       height: 400px;
-      background-color: yellow;
+      background-color: var(--color-primary);
+      padding-top: 20px;
+}
+
+#comoUsar {
       padding-top: 20px;
 }
 
@@ -20,20 +25,64 @@
       padding: 0px 40px;
       display: flex;
       text-align: justify;
+      font-size: 20px;
 }
 
 
-
-
-
-/*Container do Roadmap */
+                              /*Container do Roadmap */
 
 .container-2  {
       height: 400px;
-      background-color: white;
+      background-color: var(--color-white);
 }
 
 .container-2 h1  {
       text-align: center;
       padding: 40px 0px;
+}
+
+                              /* Desenvolvedores */
+
+.card-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.card-f{
+  width: 130px;
+  height: 200px;
+  margin: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: azure;
+  /* config da fotinha dentro do card */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* fim */
+  cursor: pointer;
+  transition: 1s ease-in-out;
+  box-shadow: 0 3px 10px rgba(44, 42, 42, 0.5);
+  border-radius: 3%;
+}
+
+                              @media screen and (max-width:768px){
+      .card-f{
+            width: 30px;
+            height: 200px;
+            margin: 20px 10px;
+            display: flex;
+            justify-content: space-between;
+            background-color: azure;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor: pointer;
+            transition: 1s ease-in-out;
+            box-shadow: 0 3px 10px rgba(44, 42, 42, 0.5);
+            border-radius: 3%;
+          }
+                       
 }

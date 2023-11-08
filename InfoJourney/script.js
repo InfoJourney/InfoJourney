@@ -11,9 +11,9 @@ function toggleMenu() {
       }
     }
     //   função para navbar
-    var prevScrollpos = window.pageYOffset;
+    var prevScrollpos = window.scrollY;
     window.onscroll = function() {
-      var currentScrollPos = window.pageYOffset;
+      var currentScrollPos = window.scrollY;
       if (prevScrollpos > currentScrollPos) {
         document.querySelector('.navbar').classList.remove('hidden');
       } else {
