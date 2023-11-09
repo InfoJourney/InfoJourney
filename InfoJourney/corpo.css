@@ -52,27 +52,73 @@
       }
       
 .card-f{
-width: 130px;
-height: 200px;
-margin: 20px 10px;
-display: flex;
-justify-content: space-between;
-background-color: azure;
-/* config da fotinha dentro do card */
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-/* fim */
-cursor: pointer;
-transition: 1s ease-in-out;
-box-shadow: 0 3px 10px rgba(44, 42, 42, 0.5);
-border-radius: 3%;
+      width: 130px;
+      height: 200px;
+      margin: 20px 10px;
+      display: flex;
+      justify-content: space-between;
+      background-color: azure;
+      /* config da fotinha dentro do card */
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      /* fim */
+      cursor: pointer;
+      transition: 0.5s ease-in-out;
+      box-shadow: 0 3px 10px rgba(44, 42, 42, 0.5);
+      border-radius: 3%;
+      }
+
+.card-f:hover {
+      margin-top: 2px;
+      transition: 0.5s;
+}
+
+#criador-1{
+      background-image: url('');
+}
+#criador-2{
+      background-image: url('');
+}
+#criador-3{
+      background-image: url('');
+}
+#criador-4{
+      background-image: url('');
+}
+#criador-5{
+      background-image: url('');
 }
 
 .slider {
       display: none;
 }
 
+/*
+#criador-1:hover {
+      margin-bottom: 2px;
+      transition: 0.5s;
+}
+#criador-1:hover {
+      margin-bottom: 2px;
+      transition: 0.5s;
+}
+
+#criador-1:hover {
+      margin-bottom: 2px;
+      transition: 0.5s;
+}
+
+#criador-1:hover {
+      margin-bottom: 2px;
+      transition: 0.5s;
+}
+
+#criador-2:hover {
+      margin-bottom: 2px;
+      transition: 0.5s;
+}
+*/
 
                               @media screen and (max-width:768px){
       
