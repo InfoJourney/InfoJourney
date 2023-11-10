@@ -4,6 +4,9 @@
       font-family: Arial, Helvetica, sans-serif;
       
 }
+body{
+      background-color: var(--color-white);
+}
 
                               /*Container com o Conteudo e os Desenvolvedores*/
 
@@ -11,6 +14,7 @@
       height: auto;
       background-color: var(--color-primary);
       padding: 20px 0;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.425);
 
 }
 
@@ -28,14 +32,17 @@
       display: flex;
       text-align: justify;
       font-size: 20px;
+      letter-spacing: 0.5px;
 }
 
 
                               /*Container do Roadmap */
 
 .container-2  {
-      height: 600px;
+      height: auto;
+      margin-bottom: 40px;
       background-color: var(--color-white);
+      
 }
 
 .container-2 h1  {
@@ -94,31 +101,7 @@
       display: none;
 }
 
-/*
-#criador-1:hover {
-      margin-bottom: 2px;
-      transition: 0.5s;
-}
-#criador-1:hover {
-      margin-bottom: 2px;
-      transition: 0.5s;
-}
 
-#criador-1:hover {
-      margin-bottom: 2px;
-      transition: 0.5s;
-}
-
-#criador-1:hover {
-      margin-bottom: 2px;
-      transition: 0.5s;
-}
-
-#criador-2:hover {
-      margin-bottom: 2px;
-      transition: 0.5s;
-}
-*/
 
                               @media screen and (max-width:768px){
       
@@ -240,4 +223,50 @@
       background-color: green;
       }
 
+}
+/*Fim Desenvolvedores*/
+
+/* Roadmap cards */ 
+
+.container-roadmap {
+      margin: auto 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.card-roadmap {
+      height: 400px;
+      width: 400px;
+      padding: 10px;
+      background-color: var(--color-primary);
+      border: 1px solid rgba(0, 0, 0, 0.479);
+      margin: 5px;
+      border-radius: 10px;
+      cursor: pointer;
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.466);
+}
+
+.card-roadmap:hover {
+      border-color: aquamarine;
+
+}
+
+@media screen and (max-width:968px){
+
+      .card-roadmap{
+            height: 250px;
+      }
+}
+
+
+@media screen and (max-width:768px){
+
+      .container-roadmap {
+
+      }
+
+      .card-off {
+            display: none;
+      }
 }
