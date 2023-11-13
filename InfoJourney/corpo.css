@@ -9,12 +9,16 @@ body{
 }
 
                               /*Container com o Conteudo e os Desenvolvedores*/
+h1 {
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.26);
+}                             
+
 
 .container {
       height: auto;
       background-color: var(--color-primary);
       padding: 20px 0;
-      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.425);
+      box-shadow: -2px -2px -15px rgba(0, 0, 0, 0.425);
 
 }
 
@@ -25,6 +29,7 @@ body{
 .container h1 {
       text-align: center;
       padding: 20px 0px;
+      
 }
 
 .container p {
@@ -33,6 +38,7 @@ body{
       text-align: justify;
       font-size: 20px;
       letter-spacing: 0.5px;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.26);
 }
 
 
@@ -42,6 +48,7 @@ body{
       height: auto;
       margin-bottom: 40px;
       background-color: var(--color-white);
+      box-shadow: -2px -2px -15px rgba(0, 0, 0, 0.315);
       
 }
 
@@ -137,6 +144,7 @@ body{
       
       .slide img{
       width: 300px;
+      cursor: pointer;
       }
       
       .manual-navigation {
@@ -252,6 +260,18 @@ body{
 
 }
 
+.card-roadmap a {
+      text-decoration: none;
+      color: black;
+      text-align: center;
+      line-height: 350px;
+      
+}
+.card-roadmap a:hover {
+      color: aquamarine;
+}
+
+
 @media screen and (max-width:968px){
 
       .card-roadmap{
@@ -262,9 +282,7 @@ body{
 
 @media screen and (max-width:768px){
 
-      .container-roadmap {
-
-      }
+      
 
       .card-off {
             display: none;
