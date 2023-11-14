@@ -15,10 +15,12 @@ h1 {
 
 
 .container {
-      height: auto;
+      height: 100vh;
       background-color: var(--color-primary);
       padding: 20px 0;
       box-shadow: -2px -2px -15px rgba(0, 0, 0, 0.425);
+      margin-bottom: auto;
+      
 
 }
 
@@ -38,17 +40,21 @@ h1 {
       text-align: justify;
       font-size: 20px;
       letter-spacing: 0.5px;
-      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.26);
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.295);
 }
 
 
                               /*Container do Roadmap */
 
 .container-2  {
-      height: auto;
-      margin-bottom: 40px;
+      height: 100vh;
+      margin-bottom: 0px;
       background-color: var(--color-white);
       box-shadow: -2px -2px -15px rgba(0, 0, 0, 0.315);
+      background-image: url(imagens/pattern001.jpeg);
+      background-repeat: repeat;
+      background-position: right center;
+      background-attachment: fixed;
       
 }
 
