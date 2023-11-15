@@ -1,9 +1,15 @@
 * {
       margin: 0;
       padding: 0;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'One Little Font';
       
 }
+
+@font-face {
+      font-family: 'One Little Font';
+      src: url('fonts/One\ Little\ Font\ Regular.otf') format('opentype');
+}
+
 body{
       background-color: var(--color-white);
 }
@@ -11,7 +17,13 @@ body{
                               /*Container com o Conteudo e os Desenvolvedores*/
 h1 {
       text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.26);
-}                             
+      font-size: 4rem;
+}    
+
+p {
+      font-size: 2rem;
+      letter-spacing: 0.5px;
+}
 
 
 .container {
@@ -38,9 +50,9 @@ h1 {
       padding: 0px 40px;
       display: flex;
       text-align: justify;
-      font-size: 20px;
-      letter-spacing: 0.5px;
-      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.295);
+      
+      
+      
 }
 
 
@@ -69,11 +81,12 @@ h1 {
       justify-content: space-around;
       align-items: center;
       text-align: center;
+      margin-top: 100px;
       }
       
 .card-f{
-      width: 130px;
-      height: 200px;
+      width: 250px;
+      height: 350px;
       margin: 20px 10px;
       display: flex;
       justify-content: space-between;
@@ -112,6 +125,7 @@ h1 {
 
 .slider {
       display: none;
+      
 }
 
 
@@ -130,6 +144,7 @@ h1 {
       overflow: hidden;
       border-radius: 10px;
       display: flex;
+      margin-top: 150px;
       }
       
       .slides{
@@ -259,6 +274,7 @@ h1 {
       border-radius: 10px;
       cursor: pointer;
       box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.466);
+      margin-top: 150px;
 }
 
 .card-roadmap:hover {
