@@ -14,7 +14,7 @@ body{
       background-color: var(--color-white);
 }
 
-                              /*Container com o Conteudo e os Desenvolvedores*/
+
 h1 {
       text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.26);
       font-size: 4rem;
@@ -25,7 +25,7 @@ p {
       letter-spacing: 0.5px;
 }
 
-
+                              /*Container com o Conteudo e os Desenvolvedores*/
 .container {
       height: 100vh;
       background-color: var(--color-primary);
@@ -131,6 +131,7 @@ p {
 #desenvolvedores p {
       margin-top: 20px;
 }
+                              /*Responsividade Devs, carrosel */
 
                               @media screen and (max-width:915px){
       
@@ -256,9 +257,9 @@ p {
       }
 
 }
-/*Fim Desenvolvedores*/
+                              /*Fim Desenvolvedores*/
 
-/* Roadmap cards */ 
+                              /* Roadmap cards */ 
 
 .container-roadmap {
       margin: -50px auto;
@@ -296,6 +297,9 @@ p {
       color: aquamarine;
 }
 
+                              /*Fim cards do roadmap */
+
+                              /*Medias / Responsividades */
 @media screen and (max-width:1362px) {
       .card-f {
             width: 160px;
@@ -323,3 +327,5 @@ p {
             display: none;
       }
 }
+
+                              /*Fim Medias / Responsividades */   
