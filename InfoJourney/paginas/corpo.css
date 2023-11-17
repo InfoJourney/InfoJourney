@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'One Little Font';
+}
+
+@font-face {
+    font-family: 'One Little Font';
+    src: url('fonts/One\ Little\ Font\ Regular.otf') format('opentype');
+}
+
+:root {
+    --color-primary: #70a9a1;
+    --color-white: #ebeaea;
+    --color-logo: #e6b8d3;
+    --color-foot: #1F363D;
+}
+
+h1 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.26);
+    font-size: 3rem;
+}
+p {
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+}
+.apre {
+    height: 300px;
+    background-color: var(--color-primary);
+    margin: auto;
+    text-align: center;
+}
+
+.apre p {
+    margin-top: 20px;
+}
+
+.roadmap {
+    background-color: gray;
+    text-align: center;
+}

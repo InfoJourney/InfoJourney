@@ -81,7 +81,7 @@ p {
       justify-content: space-around;
       align-items: center;
       text-align: center;
-      margin-top: 100px;
+      margin-top: 50px;
       }
       
 .card-f{
@@ -128,14 +128,17 @@ p {
       
 }
 
+#desenvolvedores p {
+      margin-top: 20px;
+}
 
-
-                              @media screen and (max-width:768px){
+                              @media screen and (max-width:915px){
       
       .card-container {
       display: none;
       }                                         
 
+      
 
       .slider{
       margin: 0 auto;
@@ -258,7 +261,7 @@ p {
 /* Roadmap cards */ 
 
 .container-roadmap {
-      margin: auto 30px;
+      margin: -50px auto;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -293,11 +296,21 @@ p {
       color: aquamarine;
 }
 
+@media screen and (max-width:1362px) {
+      .card-f {
+            width: 160px;
+            height: 260px;
+      }
+}
+
 
 @media screen and (max-width:968px){
 
       .card-roadmap{
             height: 250px;
+      }
+      .none {
+            display: none !important;
       }
 }
 

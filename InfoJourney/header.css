@@ -4,9 +4,10 @@ html {
 }
 
 :root {
-      --color-primary: #6fd668;
+      --color-primary: #70a9a1;
       --color-white: #ebeaea;
-      --color-logo: #e6b8d3
+      --color-logo: #e6b8d3;
+      --color-foot: #1F363D;
 }
 
     
