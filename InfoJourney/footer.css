@@ -1,4 +1,124 @@
-.foot {
+footer {
     background-color: var(--color-foot);
-    height: 200px;
+    justify-content: center;
+    font-size: small !important;
+}
+footer p {
+    font-size: smaller;
+    color: white;
+}
+footer h1 {
+    font-size: small;
+    
+}
+/* container */
+.container-F {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container-F h1 {
+    font-size: 18px;
+    
+}
+
+.container-F p {
+    font-size: 14px;
+    padding: 10px 0;
+    
+}
+
+/*links*/
+
+.links {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.links a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+
+.links a:hover {
+    color: white;
+}
+
+
+/* conteudos dentro do container*/
+.ladoE{
+    width: 25%;
+    text-align: center;
+    padding: 30px 0 30px 10%;
+    
+}
+
+.ladoD {
+    width: 25%;
+    text-align: center;
+    padding: 30px 10% 30px 0;
+    
+}
+
+/*icons*/
+i {
+    color: black;
+    font-size: 30px;
+}
+i:hover {
+    color: white;
+    cursor: pointer;
+}
+/*Footer responsivo */
+
+.container-media {
+    display: none;
+}
+
+                    @media screen and (max-width: 768px) {
+    .container-F {
+        display: none;
+    }
+
+    .container-media {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 200px;
+        margin: 0 30px;
+    }
+    
+    .container-media h1 {
+        font-size: 18px;
+    }
+    
+    .container-media p {
+        font-size: 14px;
+    }
+    
+    i{
+        font-size: 30px;
+    }
+
+    a {
+        color: #3f619c;
+    }
+
+    a:hover {
+        color: #7aa2e7;
+    }
+
+    .container-media p {
+        padding: 10px 0px;
+    }
+
+    .links {
+        padding: 10px 0;
+    }
 }
