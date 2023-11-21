@@ -47,10 +47,10 @@ p {
 }
 
 .container p {
-      padding: 0px 40px;
+      padding: 30px 40px;
       display: flex;
       text-align: justify;
-      
+      text-indent: 15px;
       
       
 }

@@ -1,87 +1,78 @@
 footer {
     background-color: var(--color-foot);
-    justify-content: center;
-    font-size: small !important;
-}
-footer p {
-    font-size: smaller;
+    font-size: 3rem;
     color: white;
 }
-footer h1 {
-    font-size: small;
-    
-}
-/* container */
-.container-F {
-    margin: auto;
+
+.container-f {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    height: 200px;
 }
 
-.container-F h1 {
+.container-f h1 {
     font-size: 18px;
-    
+    margin-bottom: 5px;
 }
 
-.container-F p {
+.container-f p {
     font-size: 14px;
-    padding: 10px 0;
-    
 }
 
-/*links*/
-
-.links {
-    text-align: center;
-    padding-top: 30px;
+i{
+    font-size: 30px;
 }
 
-.links a {
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    margin: 0 10px;
-}
-
-.links a:hover {
-    color: white;
-}
-
-
-/* conteudos dentro do container*/
-.ladoE{
+.ladoE {
     width: 25%;
     text-align: center;
     padding: 30px 0 30px 10%;
-    
+}
+
+.ladoE a {
+    color: #3f619c;
+}
+
+.ladoE a:hover {
+    color: var(--color-hover);
 }
 
 .ladoD {
     width: 25%;
     text-align: center;
     padding: 30px 10% 30px 0;
-    
 }
 
-/*icons*/
-i {
-    color: black;
-    font-size: 30px;
+.ladoD a {
+    color: #3f619c;
 }
-i:hover {
-    color: white;
-    cursor: pointer;
+
+.ladoD a:hover {
+    color: var(--color-hover);
 }
-/*Footer responsivo */
+
+.links {
+    text-align: center;
+}
+
+.links a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: small;
+    color: aliceblue;
+}
+
+.links a:hover {
+    color: var(--color-hover);
+}
 
 .container-media {
     display: none;
 }
 
-                    @media screen and (max-width: 768px) {
-    .container-F {
+@media screen and (max-width: 768px) {
+    .container-f {
         display: none;
     }
 
@@ -96,6 +87,7 @@ i:hover {
     
     .container-media h1 {
         font-size: 18px;
+        padding: 10px 0;
     }
     
     .container-media p {
@@ -108,17 +100,12 @@ i:hover {
 
     a {
         color: #3f619c;
+        
     }
 
     a:hover {
-        color: #7aa2e7;
+        color: var(--color-hover);
     }
 
-    .container-media p {
-        padding: 10px 0px;
-    }
-
-    .links {
-        padding: 10px 0;
-    }
+    
 }
