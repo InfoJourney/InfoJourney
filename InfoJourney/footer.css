@@ -107,5 +107,12 @@ i{
         color: var(--color-hover);
     }
 
+    .copy {
+        padding-top: 10px;
+    }
     
+    .copy:hover {
+        color: var(--color-hover);
+        
+    }
 }
