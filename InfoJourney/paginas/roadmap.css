@@ -30,6 +30,7 @@
 }
 
 .primario {
+    border-radius: 10px;
     width: 450px;
     background-color: bisque;
     padding: 20px;
@@ -38,6 +39,7 @@
 }
 
 .secundario {
+    border-radius: 10px;
     width: 350px;
     background-color: bisque;
     padding: 15px;
@@ -46,6 +48,7 @@
 }
 
 .terciario {
+    border-radius: 10px;
     width: 250px;   
     background-color: bisque;
     padding: 10px;
@@ -54,6 +57,7 @@
 }
 
 .quartenario {
+    border-radius: 10px;
     width: 150px;
     background-color: bisque;
     padding: 7px;
