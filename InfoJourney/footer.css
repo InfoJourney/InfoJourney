@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;    
+}
+
 footer {
     background-color: var(--color-foot);
     font-size: 3rem;
@@ -27,7 +31,7 @@ i{
 .ladoE {
     width: 25%;
     text-align: center;
-    padding: 30px 0 30px 10%;
+    padding: 30px 5px 30px 10%;
 }
 
 .ladoE a {
@@ -41,7 +45,7 @@ i{
 .ladoD {
     width: 25%;
     text-align: center;
-    padding: 30px 10% 30px 0;
+    padding: 30px 10% 30px 5px;
 }
 
 .ladoD a {

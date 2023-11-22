@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'One Little Font';
+}
+
+@font-face {
+    font-family: 'One Little Font';
+    src: url('fonts/One\ Little\ Font\ Regular.otf') format('opentype');
+}
+
+:root {
+    --color-primary: #70a9a1;
+    --color-white: #ebeaea;
+    --color-logo: #e6b8d3;
+    --color-foot: #1F363D;
+}
+
+body {
+    background-color: var(--color-white);
+    margin: 50px;
+}
