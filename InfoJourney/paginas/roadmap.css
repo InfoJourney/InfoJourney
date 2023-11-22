@@ -16,7 +16,47 @@
     --color-foot: #1F363D;
 }
 
-body {
+.borda{
     background-color: var(--color-white);
-    margin: 50px;
+    margin: 7px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.primario {
+    width: 450px;
+    background-color: bisque;
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 2rem;
+}
+
+.secundario {
+    width: 350px;
+    background-color: bisque;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.terciario {
+    width: 250px;   
+    background-color: bisque;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.quartenario {
+    width: 150px;
+    background-color: bisque;
+    padding: 7px;
+    margin-bottom: 20px;
+    font-size: 0.7rem;
 }
