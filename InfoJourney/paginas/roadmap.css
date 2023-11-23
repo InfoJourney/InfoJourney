@@ -9,11 +9,25 @@
     src: url('fonts/One\ Little\ Font\ Regular.otf') format('opentype');
 }
 
+h1, h2, h3, h4 {
+    color: black;
+    display:inline;
+    
+}
+
+i {
+    color: white;
+}
+
 :root {
     --color-primary: #70a9a1;
     --color-white: #ebeaea;
     --color-logo: #e6b8d3;
     --color-foot: #1F363D;
+    --color-h1: #29524A;
+    --color-h2: #15B097;
+    --color-h3: #71f79f;
+    --color-h4: #4D5382;
 }
 
 .container {
@@ -22,16 +36,18 @@
     align-items: center;
     text-align: center;
     flex-direction: column;
+    
 }
 
 .primario {
     cursor: pointer;
     border-radius: 10px;
     width: 450px;
-    background-color: bisque;
+    background-color: var(--color-h1);
     padding: 20px;
     margin: 20px 0;
     font-size: 2rem;
+    
 }
 
 .secundario {
@@ -39,7 +55,7 @@
     cursor: pointer;
     border-radius: 10px;
     width: 350px;
-    background-color: bisque;
+    background-color: var(--color-h2);
     padding: 15px;
     margin-bottom: 20px;
     font-size: 1.5rem;
@@ -50,7 +66,7 @@
     cursor: pointer;
     border-radius: 10px;
     width: 250px;   
-    background-color: bisque;
+    background-color: var(--color-h3);
     padding: 10px;
     margin-bottom: 20px;
     font-size: 1rem;
@@ -60,7 +76,7 @@
     display: none;
     border-radius: 10px;
     width: 150px;
-    background-color: bisque;
+    background-color: var(--color-h4);
     padding: 7px;
     margin-bottom: 20px;
     font-size: 0.7rem;
