@@ -81,3 +81,34 @@ i {
     margin-bottom: 20px;
     font-size: 0.7rem;
 }
+
+@keyframes animacao {
+    0% {
+        width: 0%;
+    }
+    
+    100% {
+        width: 30%;
+    }
+}
+
+dialog {
+    height: 100vh;
+    width: 30%;
+    animation-name: animacao;
+    animation-duration: 1s;
+}
+
+dialog h2 {
+    color: white;
+}
+dialog p {
+    text-align: center;
+    color: #15B097;
+}
+
+dialog button {
+    border-radius: 5px;
+    
+
+}
