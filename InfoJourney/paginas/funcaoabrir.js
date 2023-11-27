@@ -55,6 +55,25 @@ function toggleInfoCoracao() {
 // arterias, dentro de arterias vamos fechar todos os terciarios de arteirias
 function toggleInfoArterias() {
     var infoDivs = document.querySelectorAll('.arterias');
+    var caracte = document.querySelectorAll('.caracteristicas')
+    
+    infoDivs.forEach(function(div) {
+        if (div.style.display === 'none' || div.style.display === '') {
+            div.style.display = 'block';
+        } else {
+            div.style.display = 'none';
+        }
+    });
+    caracte.forEach(function(div) {
+        if (div.style.display === 'block' || div.style.display === 'flex') {
+            div.style.display = 'none';
+        }
+    });
+
+}
+
+function toggleInfoCaracteristicas() {
+    var infoDivs = document.querySelectorAll('.caracteristicas');
     
     infoDivs.forEach(function(div) {
         if (div.style.display === 'none' || div.style.display === '') {
@@ -64,7 +83,6 @@ function toggleInfoArterias() {
         }
     });
 }
-
 // veias, dentro de veias vamos fechar todos os terciarios de veias 
 function toggleInfoVeias() {
     var infoDivs = document.querySelectorAll('.veias');
@@ -113,6 +131,7 @@ function toggleInfoCVS() {
     var veias =  document.querySelectorAll('.veias');
     var capilar =  document.querySelectorAll('.capilar');
     var sangue =  document.querySelectorAll('.sangue');
+    var caracte = document.querySelectorAll('.caracteristicas')
 
     infoDivs.forEach(function(div) {
         if (div.style.display === 'none' || div.style.display === '') {
@@ -164,4 +183,10 @@ function toggleInfoCVS() {
             div.style.display = 'none';
         }
     });
+    caracte.forEach(function(div) {
+        if (div.style.display === 'block' || div.style.display === 'flex') {
+            div.style.display = 'none';
+        }
+    });
+
 }

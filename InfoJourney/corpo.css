@@ -21,15 +21,15 @@ body{
 
 h1 {
       text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.26);
-      font-size: 4rem;
+      font-size: 3rem;
 }    
 h2 {
       text-align: center;
       padding: 20px 0px;
-      font-size: 3rem;
+      font-size: 2rem;
 }
 p {
-      font-size: 2rem;
+      font-size: 1.5rem;
       letter-spacing: 0.5px;
 }
 
@@ -289,6 +289,16 @@ p {
       cursor: pointer;
       box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.466);
       margin-top: 50px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+}
+
+.card-roadmap p {
+      display: flex;
+      align-items: center;
+      text-align: center;
 }
 
 .card-roadmap:hover {
@@ -311,11 +321,16 @@ p {
                               /*Fim cards do roadmap */
 
                               /*Medias / Responsividades */
+
 @media screen and (max-width:1362px) {
       .card-f {
             width: 160px;
             height: 260px;
       }
+      .none {
+            display: none!important;
+      }
+      
 }
 
 
@@ -335,12 +350,12 @@ p {
       }
 }
 
-@media screen and (max-width:1030px){
+@media screen and (max-width:1142px){
       
       .none {
             display: none!important;
       }
-
+      
       p {
             font-size: 1.1rem;
       }
@@ -353,7 +368,7 @@ p {
       }
 }
 
-@media screen and (max-width:749px){
+@media screen and (max-width:768px){
 
       h1 {
             font-size: 2rem;
@@ -363,6 +378,9 @@ p {
             font-size: 1.5rem;
       }
       .none {
+            display: none !important;
+      }
+      .none2 {
             display: none !important;
       }
       

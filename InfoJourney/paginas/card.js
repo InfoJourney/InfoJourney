@@ -326,7 +326,7 @@ fechar26.onclick = function () {
 
 const abrir27 = document.querySelector("#cvs27")
 const modal27 = document.querySelector("#infoCvs27")
-const fechar27 = document.querySelector("#btn-cv")
+const fechar27 = document.querySelector("#btn-cvs27")
 
 abrir27.onmouseenter = function (){
     modal27.showModal()
@@ -375,7 +375,6 @@ fechar30.onclick = function () {
     modal30.close()
 }
 
-
 const abrir31 = document.querySelector("#cvs31")
 const modal31 = document.querySelector("#infoCvs31")
 const fechar31 = document.querySelector("#btn-cvs31")
@@ -386,4 +385,67 @@ abrir31.onmouseenter = function (){
 
 fechar31.onclick = function () {
     modal31.close()
+}
+
+const abrir32 = document.querySelector("#cvs32")
+const modal32 = document.querySelector("#infoCvs32")
+const fechar32 = document.querySelector("#btn-cvs32")
+
+abrir32.onmouseenter = function (){
+    modal32.showModal()
+}
+
+fechar32.onclick = function () {
+    modal32.close()
+}
+
+const abrir33 = document.querySelector("#cvs33")
+const modal33 = document.querySelector("#infoCvs33")
+const fechar33 = document.querySelector("#btn-cvs33")
+
+abrir33.onmouseenter = function (){
+    modal33.showModal()
+}
+
+fechar33.onclick = function () {
+    modal33.close()
+}
+
+
+const abrir34 = document.querySelector("#cvs34")
+const modal34 = document.querySelector("#infoCvs34")
+const fechar34 = document.querySelector("#btn-cvs34")
+
+abrir34.onmouseenter = function (){
+    modal34.showModal()
+}
+
+fechar34.onclick = function () {
+    modal34.close()
+}
+
+
+const abrir35 = document.querySelector("#cvs35")
+const modal35 = document.querySelector("#infoCvs35")
+const fechar35 = document.querySelector("#btn-cvs35")
+
+abrir35.onmouseenter = function (){
+    modal35.showModal()
+}
+
+fechar35.onclick = function () {
+    modal35.close()
+}
+
+
+const abrir36 = document.querySelector("#cvs36")
+const modal36 = document.querySelector("#infoCvs36")
+const fechar36 = document.querySelector("#btn-cvs36")
+
+abrir36.onmouseenter = function (){
+    modal36.showModal()
+}
+
+fechar36.onclick = function () {
+    modal36.close()
 }
