@@ -5,29 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="roadmap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="imagens/logoumpoucomaior.ico" type="image/x-icon">
-    <title>Dengue</title>
+    <link rel="shortcut icon" href="img/logoumpoucomaior.ico" type="image/x-icon">
+    <title>Coração, Vasos e Sangue</title>
 </head>
 <body>
-
     
+    <div class="legendas">
+        <h1>LEGENDA:</h1>
+        <div class="legenda-item">
+            <i class="fa-solid fa-plus"></i>
+            : Passe a setinha por cima para visualizar mais conteúdos.
+        </div>
+        <hr>
+        <div class="legenda-item">
+            <i class="fa-solid fa-circle" style="color: #29524a;"></i>
+            : Clique para expandir tópicos secundários. </li>
+        </div>
+        <hr>
+        <div class="legenda-item">
+            <i class="fa-solid fa-circle" style="color: #15b097;"></i>
+            : Clique para expandir tópicos terciários.      </li>
+        </div>
+        <hr>
+        <div class="legenda-item">
+            <i class="fa-solid fa-circle" style="color: #71f79f;"></i>
+            : Clique para expandir tópicos quartenários.</li>
+        </div>
+    </div>
+
 <!-- Primeiro h1 -->
 <dialog id="infoCvs">
-    <h2>Titulo</h2>
-    <p>A Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis iusto rerum iure tempore culpa voluptatem optio labore, facilis maiores beatae ducimus in consequatur perferendis, tenetur voluptatum distinctio ea nobis ratione.</p>
-    <button id="btn-cvs">Fechar</button>
+    <div class="titulo-dialog">  <!-- ATENÇÃO: repetir essa classe em todo o conteúdo -->
+        <h2>Titulo</h2>
+    </div>
+    <p>Ace Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis iusto rerum iure tempore culpa voluptatem optio labore, facilis maiores beatae ducimus in consequatur perferendis, tenetur voluptatum distinctio ea nobis ratione.</p>
+    <div class="btn-dialog"> <!-- ATENÇÃO: repetir essa classe em todo o conteúdo -->
+        <button id="btn-cvs">Fechar</button>
+    </div>
+    
 </dialog>
 <!-- conteudo do coração -->
 <dialog id="infoCvs2">
-    <h2>Cummer</h2>
-    <p> Cum Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis iusto rerum iure tempore culpa voluptatem optio labore, facilis maiores beatae ducimus in consequatur perferendis, tenetur voluptatum distinctio ea nobis ratione.</p>
-    <button id="btn-cvs2">Fechar</button>
+    <div class="titulo-dialog"> <!-- ATENÇÃO: repetir essa classe em todo o conteúdo -->
+        <h2>Coração</h2>
+    </div>
+    <p> É um órgão muscular oco, situado na porção mediastinal da cavidade torácica, entre o osso esterno e a coluna vertebral, abraçado pelos pulmões e acima do diafragma.</p>
+    <p><a href="https://blog.jaleko.com.br/historia-da-medicina-sistema-cardiovascular-sua-descoberta-e-evolucao-do-seu-conhecimento/" target="_blank">Curiosidade</a></p>
+    <div class="btn-dialog"> <!-- ATENÇÃO: repetir essa classe em todo o conteúdo -->
+        <button id="btn-cvs2">Fechar</button>
+    </div>
 </dialog>
 <!-- sobre as 3 camadas -->
 <dialog id="infoCvs3">
-    <h2>Cum</h2>
-    <p> Cum Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis iusto rerum iure tempore culpa voluptatem optio labore, facilis maiores beatae ducimus in consequatur perferendis, tenetur voluptatum distinctio ea nobis ratione.</p>
-    <button id="btn-cvs3">Fechar</button>
+    <div class="titulo-dialog"> <!-- ATENÇÃO: repetir essa classe em todo o conteúdo -->
+        <h2>Possui 3 camadas</h2>
+    </div>
+        <p>♦ Endocárdio: é a camada interna do coração, tem característica semelhante ao endotélio que reveste os vasos sanguíneos.</p>
+        <p>♦ Miocárdio: é nome do músculo que forma o coração.</p> 
+        <p>♦ Epicárdio: camada mais externa do coração, reveste o coração como se fosse uma bainha ou uma capa, protegendo o miocárdio. Também pode ser chamado de pericárdio seroso.</p>
+    <div class="btn-dialog"> <!-- ATENÇÃO: repetir essa classe em todo o conteúdo -->
+        <button id="btn-cvs3">Fechar</button>
+    </div>
 </dialog>
 <dialog id="infoCvs4">
     <h2>Cum</h2>
@@ -177,18 +215,18 @@
     <section class="roadmap-1">
         <div class="container">
         <!-- principal -->
-            <div class="primario" onclick="toggleInfoCVS()">
+            <div class="primario btn-hover" onclick="toggleInfoCVS()">
                 <h1>Coração, vasos e sangue.</h1>
                 <i class="fa-solid fa-plus" id="cvs"></i>
             </div>
             
             <!-- secundarios -->
-                <div class="secundario cvs" onclick="toggleInfoCoracao()">
+                <div class="secundario cvs btn-hover2" onclick="toggleInfoCoracao()">
                     <h2>Coração</h2>
                     <i class="fa-solid fa-plus" id="cvs2"></i>
                 </div>
                 <!-- terciario -->
-                    <div class="terciario coracao" onclick="toggleInfoCamadas()">
+                    <div class="terciario coracao btn-hover3" onclick="toggleInfoCamadas()">
                         <h3>Possui 03 camadas</h3><i class="fa-solid fa-plus" id="cvs3"></i>
                     </div>
                     <!-- quartenario -->
@@ -232,7 +270,7 @@
                         <i class="fa-solid fa-plus" id="cvs11"></i>
                     </div>
                         
-                    <div class="terciario coracao" onclick="toggleInfoValvas()">
+                    <div class="terciario coracao btn-hover3" onclick="toggleInfoValvas()">
                         <h3>Valva</h3>
                         <i class="fa-solid fa-plus" id="cvs12"></i>
                     </div>
@@ -257,7 +295,7 @@
                             <i class="fa-solid fa-plus" id="cvs16"></i>
                         </div>
                         <!-- secundario -->
-                <div class="secundario cvs" onclick="toggleInfoArterias()">
+                <div class="secundario cvs btn-hover2" onclick="toggleInfoArterias()">
                     <h2>Artérias</h2>
                     <i class="fa-solid fa-plus" id="cvs17"></i>
                 </div>
@@ -277,7 +315,7 @@
                         <i class="fa-solid fa-plus" id="cvs20"></i>
                     </div>
                     <!-- secundario -->
-                <div class="secundario cvs" onclick="toggleInfoVeias()">
+                <div class="secundario cvs btn-hover2" onclick="toggleInfoVeias()">
                     <h2>Veias</h2>
                     <i class="fa-solid fa-plus" id="cvs21"></i>
                 </div>
@@ -297,7 +335,7 @@
                         <i class="fa-solid fa-plus" id="cvs24"></i>
                     </div>
                     <!-- secundario -->
-                <div class="secundario cvs" onclick="toggleInfoCapilar()">
+                <div class="secundario cvs btn-hover2" onclick="toggleInfoCapilar()">
                     <h2>Capilares</h2>
                     <i class="fa-solid fa-plus" id="cvs25"></i>
                 </div>
@@ -317,7 +355,7 @@
                         <i class="fa-solid fa-plus" id="cvs28"></i>
                     </div>
                     <!-- secundario -->
-                <div class="secundario cvs" onclick="toggleInfoSangue()">
+                <div class="secundario cvs btn-hover2" onclick="toggleInfoSangue()">
                     <h2>Sangue</h2>
                     <i class="fa-solid fa-plus" id="cvs29"></i>
                 </div>
