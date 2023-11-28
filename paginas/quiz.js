@@ -185,6 +185,8 @@ nextButton.addEventListener("click", ()=>{
     }
 });
 
+startQuiz()
 
-
-startQuiz(); 
+function redirecionar() {
+    window.location.href = "cvs.html"
+}
