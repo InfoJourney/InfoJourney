@@ -25,7 +25,7 @@ h1 {
 }    
 h2 {
       text-align: center;
-      padding: 20px 0px;
+      padding: 10px 0px;
       font-size: 2rem;
 }
 p {
@@ -50,12 +50,12 @@ p {
 
 .container h1 {
       text-align: center;
-      padding: 20px 0px;
+      padding: 10px 0px;
       
 }
 
 .container p {
-      padding: 30px 40px;
+      padding: 5px 40px;
       display: flex;
       text-align: justify;
       text-indent: 15px;
