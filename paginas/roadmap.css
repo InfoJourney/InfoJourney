@@ -217,3 +217,28 @@ span {
     justify-content: center;
     align-items: center;
 }
+
+.container-quiz {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.container-quiz a{
+    text-decoration: none;
+    color: black;
+}
+
+.quiz{
+    width: 120px;
+    height: 40px;
+    background-color: aliceblue;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.quiz:hover{
+    box-shadow: 1px 5px 5px
+}
